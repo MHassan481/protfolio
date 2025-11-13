@@ -36,6 +36,7 @@ const Projects = () => {
       ],
       technologies: ['Node.js', 'Express.js', 'MongoDB', 'REST APIs'],
       color: 'from-green-500 to-emerald-500',
+      github: 'https://github.com/MHassan481/inventory-management-system',
     },
     {
       title: 'Engineering Company Website',
