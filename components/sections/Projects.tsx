@@ -3,7 +3,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ShoppingCart, Package, Building2, ExternalLink } from 'lucide-react';
+import { ShoppingCart, Package, Building2, ExternalLink, Github } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -21,6 +21,7 @@ const Projects = () => {
       technologies: ['React.js', 'Redux Toolkit', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
       color: 'from-blue-500 to-cyan-500',
       link: 'https://e-commerce-14wa.vercel.app/',
+      github: 'https://github.com/MHassan481/e-commerce',
     },
     {
       title: 'Inventory Management System',
@@ -98,6 +99,7 @@ const Projects = () => {
                         </Badge>
                       ))}
                     </div>
+                    <div className="flex gap-2 mt-4">
                     {project.link && (
                       <Button
                         onClick={() => window.open(project.link, '_blank')}
@@ -107,6 +109,18 @@ const Projects = () => {
                         View Live
                       </Button>
                     )}
+                    
+                     {project.github && (
+                        <Button
+                          onClick={() => window.open(project.github, '_blank')}
+                          variant="outline"
+                          className="flex-1 border-slate-300 dark:border-slate-700"
+                        >
+                          <Github className="w-4 h-4 mr-2" />
+                          View Code
+                        </Button>
+                      )}
+                      </div>
                   </div>
                 </CardContent>
               </Card>
