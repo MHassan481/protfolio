@@ -25,7 +25,7 @@ const About = () => {
             </CardHeader>
             <CardContent>
               <div>
-                <h3 className="font-semibold text-slate-900 dark:text-white">Mern Full Stack Web Development</h3>
+                <h3 className="font-semibold text-slate-900 dark:text-white">MERN Full Stack Web Development</h3>
                 <p className="text-slate-600 dark:text-slate-300">PNY Arfa Tower</p>
                 <p className="text-sm text-slate-500">2024</p>
               </div>
