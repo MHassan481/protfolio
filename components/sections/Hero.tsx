@@ -11,9 +11,10 @@ const Hero = () => {
           <div className="mb-8 inline-block">
             <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 p-1 shadow-2xl">
               <div className="w-full h-full rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center">
-                <span className="text-6xl font-bold bg-gradient-to-br from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+                {/* <span className="text-6xl font-bold bg-gradient-to-br from-blue-600 to-cyan-600 bg-clip-text text-transparent">
                   MH
-                </span>
+                </span> */}
+                <link href="../../img/img1.png" />
               </div>
             </div>
           </div>
