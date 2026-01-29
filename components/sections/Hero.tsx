@@ -2,6 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Github, Mail, MapPin } from 'lucide-react';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -14,7 +15,13 @@ const Hero = () => {
                 {/* <span className="text-6xl font-bold bg-gradient-to-br from-blue-600 to-cyan-600 bg-clip-text text-transparent">
                   MH
                 </span> */}
-                <link href="../../img/img1.png" />
+                {/* <Image
+      src="/img1.png"
+      alt="Muhammad Hassan Yahya"
+      width={180}
+      height={180}
+      className="rounded-full object-cover"
+    /> */}
               </div>
             </div>
           </div>
