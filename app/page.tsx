@@ -13,10 +13,10 @@ export default function Home() {
     <main className="bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
       <Navigation />
       <Hero />
-      <About />
       <Skills />
       <Experience />
       <Projects />
+      <About />
       <Contact />
     </main>
   );
