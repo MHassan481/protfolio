@@ -14,27 +14,7 @@ const About = () => {
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto"></div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          <Card className="border-2 hover:border-blue-500 transition-all duration-300 hover:shadow-xl">
-            <CardHeader>
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center mb-4">
-                <GraduationCap className="w-6 h-6 text-white" />
-              </div>
-              <CardTitle>Education</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div>
-                <h3 className="font-semibold text-slate-900 dark:text-white">Full Stack Web Development</h3>
-                <p className="text-slate-600 dark:text-slate-300">PNY Arfa Tower, Lahore</p>
-                <p className="text-sm text-slate-500">2024</p>
-              </div>
-              <div>
-                <h3 className="font-semibold text-slate-900 dark:text-white">Matriculation</h3>
-                <p className="text-slate-600 dark:text-slate-300">Govt. Boys High School, Nawabpura</p>
-                <p className="text-sm text-slate-500">2020</p>
-              </div>
-            </CardContent>
-          </Card>
+        <div className="grid md:grid-cols-2 gap-8">
 
           <Card className="border-2 hover:border-blue-500 transition-all duration-300 hover:shadow-xl">
             <CardHeader>
