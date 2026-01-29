@@ -1,7 +1,7 @@
 'use client';
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { GraduationCap, Award, Globe } from 'lucide-react';
+import { Award, Globe } from 'lucide-react';
 
 const About = () => {
   return (
@@ -25,7 +25,7 @@ const About = () => {
             </CardHeader>
             <CardContent>
               <div>
-                <h3 className="font-semibold text-slate-900 dark:text-white">Full Stack Web Development</h3>
+                <h3 className="font-semibold text-slate-900 dark:text-white">Mern Full Stack Web Development</h3>
                 <p className="text-slate-600 dark:text-slate-300">PNY Arfa Tower</p>
                 <p className="text-sm text-slate-500">2024</p>
               </div>
