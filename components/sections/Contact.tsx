@@ -49,7 +49,7 @@ const Contact = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto mb-4"></div>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            {"I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions."}
           </p>
         </div>
 
@@ -111,7 +111,7 @@ const Contact = () => {
               Ready to Start a Project?
             </h3>
             <p className="text-slate-600 dark:text-slate-300 mb-6 max-w-2xl mx-auto">
-              Let's create something amazing together. Reach out and let's discuss how I can help bring your ideas to life.
+              {"Let's create something amazing together. Reach out and let's discuss how I can help bring your ideas to life."}
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button
